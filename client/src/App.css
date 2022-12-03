@@ -1,0 +1,291 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.output {
+  background-color: #61dafb;
+  display: flex;
+  color: black;
+  height: 600px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.submit-button {
+  height: 45px;
+  width: 1000px;
+  margin-top: 1em;
+}
+
+.module {
+  display:flex;
+  margin: 0 auto;
+  gap: 1em;
+  margin-top: 3em;
+}
+
+.dashboard {
+  display: inline-block;
+  margin: 0 auto;
+  
+}
+
+.count {
+  height: 500px;
+  width: 350px;
+  border: none;
+  margin: 0 auto;
+  margin-left: 2.5rem;
+}
+
+.donut {
+  height: 500px;
+  width: 350px;
+  border: none;
+  margin: 0 auto;
+}
+
+.welcome {
+	color: #B0D7FF;
+  margin: 0 auto;
+  margin-top: 1.5em;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 4em;
+  position: sticky;
+}
+
+
+
+
+.users_chart {
+  display: block;
+  margin: 0 auto;
+  height: 500px;
+  width: 750px;
+  border: none;
+}
+
+
+body {
+  width: 100%;
+  background-image: url(./img/loginpage.jpg);
+  background-position:center;
+  background-size: cover;
+  position: relative;
+}
+
+nav{
+  display:flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.nav-links{
+  flex:1; /*occupy all the space in the row*/
+  text-align:right; /*text will be on the right side*/
+
+}
+
+.nav-links ul li{
+  list-style: none; /*so we can get rid of the bullet points*/
+  display: inline-block; /*so the home headings will all come horizontally*/
+  padding: 8px 12px;
+  position: relative; /**/
+
+}
+
+.nav-links ul li a{ /*add a for the anchor tag, this is for the home, courses, etc*/
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+
+}
+
+.nav-links ul li::after{ /*this should give like a red line underneath the home, courses, login*/
+  content: '';
+  width: 0%;
+  height:2px;
+  background: #B0D7FF;
+  display:block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{ /*sleek hover effect - red line should show up*/
+  width: 100%;
+}
+
+.text-box{
+  width: 90%;
+  color: #B0D7FF;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+.text-box h1{
+  font-size: 100px;
+}
+
+.text-box p{
+  margin: 10px 0 40px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.hero-btn{ /*this is for the LOGIN BUTTON, the button should be lower center of screen with box around the login button*/
+  display: inline-block;
+  text-decoration:none;
+  color:#fff;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 1em;
+  margin-top: 1em ;
+}
+
+.hero-btn:hover{
+  border: 1px solid #B0D7FF;
+  background: #B0D7FF;
+}
+
+.about-btn {
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 14px;
+  color: #B0D7FF;
+  font-weight: bold;
+}
+
+.contact-btn {
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 14px;
+  color: #B0D7FF;
+  font-weight: bold;
+}
+
+.about-desc {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 1200px;
+  margin-top: 4em;
+  margin-bottom: 4.5em;
+}
+
+.poc-desc {
+  margin: 0 auto;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.about-back-btn {
+  text-decoration:none;
+  color:#fff;
+  border: 1px solid #fff;
+  padding: 8px 10px 10px 10px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  max-width: 5em;
+  margin: 0 auto;
+  margin-top: 3em;
+}
+
+.about-back-btn:hover{
+  border: 1px solid #B0D7FF;
+  background: #B0D7FF;
+}
+
+.module-loading{
+  font-size: 40px;
+  margin: 0 auto;
+}
+
+.submits {
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.profile-page {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 3em;
+}
+
+.signup-form {
+  margin: 0 auto;
+  max-width: 200px;
+  gap: 1em;
+  display: list-item;
+}
+
+.login-form {
+  margin: 0 auto;
+  max-width: 200px;
+  gap: 1em;
+  display: list-item;
+}
+
+.table {
+  background-color: #B0D7FF;
+  color: black;
+  margin: 0 auto;
+  margin-top: 2.5em;
+  width: 1400px;
+  height: 100px;
+}
+
+.table-thead {
+  background-color: #fff;
+  margin: 0 auto;
+  width: 1800px;
+}
+
+

@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* COLORS */
+  --BGCOLOR: #0F172A;
+  --BORDER-COLOR: #FFF;
+  --COLOR: #FFF;
+  --ERROR: firebrick;
+  --INACTIVE: lightgray;
+  --LINK-COLOR: whitesmoke;
+  --LINK-HOVER: rgba(245, 245, 245, 0.9);
+  --NOTE-BGCOLOR: hsla(240, 64%, 27%, 0.65);
+  --STATUS-COMPLETE: limegreen;
+  --STATUS-OPEN: firebrick;
+  --TABLE-BGCOLOR: #FFF;
+  --TABLE-COLOR: #000;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  min-height: 100vh;
+  background-color: var(--BGCOLOR);
+  color: var(--COLOR);
+  background-color: #0F172A;
+  background-size: cover;
+  background-position: top right;
+  background-blend-mode: multiply;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+#root {
+  /* React root div */
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+a:visited {
+  color: #0F172A;
+}
+
+a:hover,
+a:focus-visible {
+  color: white;
+  background-color: #0F172A;
+}
+
+.logo {
+  position: relative;
+  padding-top: 1em;
+  margin-bottom: 0;
+  padding-left: 1em;
+  
+}
+
+.header {
+  background-color: lightblue;
+  color: #0F172A;
+}
+
+.menu_options {
+  display: flex;
+  justify-content: right;
+  margin: 3em 5em .5em 2em;
+  list-style-type: none;
+  gap: 2em;
+}
+
+.editor {
+    width: 35%;
+    position: relative;
+    
+}

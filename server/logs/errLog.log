@@ -1,0 +1,24 @@
+20221106	11:52:57	b20585ca-8397-47e0-8681-f6e365407a78	Error: Not allowed by CORS	GET	/	undefined
+20221106	11:54:51	7cdb564f-bdfe-42c1-83db-314c84ce4bb2	Error: Not allowed by CORS	OPTIONS	/	https://www.google.com
+20221106	11:54:51	276b89a2-6e1e-4dcc-ab72-25c43b987980	Error: Not allowed by CORS	GET	/	https://www.google.com
+20221106	11:56:15	3e588dda-829e-4dca-b67a-2db7663f274f	Error: Not allowed by CORS	OPTIONS	/	https://www.google.com
+20221106	11:56:15	d39144d2-26ea-4c73-8919-2d12a00b8ea4	Error: Not allowed by CORS	GET	/	https://www.google.com
+20221107	18:19:08	92c8433c-0f9d-496b-9f89-a80e2423c011	Error: Not allowed by CORS	OPTIONS	/	https://www.google.com
+20221107	18:19:08	c7c9e256-771d-4e8b-83f9-12802078880f	Error: Not allowed by CORS	GET	/	https://www.google.com
+20221112	16:01:01	43b6336e-ea61-4f96-8936-8cc5a5ca09c3	Error: Not allowed by CORS	OPTIONS	/users	https://bold-flare-817894.postman.co
+20221112	16:01:30	d94a625a-b183-4200-9381-27dfcf42c739	Error: Not allowed by CORS	OPTIONS	/users	https://bold-flare-817894.postman.co
+20221112	16:02:04	7dbf9657-83df-44f0-b53b-eb6e656d4f93	Error: Not allowed by CORS	OPTIONS	/users	https://bold-flare-817894.postman.co
+20221112	16:25:32	bfadaa45-265b-4092-bde3-5f6300823026	SyntaxError: Unexpected token } in JSON at position 135	POST	/users	undefined
+20221112	16:27:34	00093772-e06f-4365-ac15-eaeaec6371a7	SyntaxError: Unexpected string in JSON at position 165	GET	/users	undefined
+20221112	16:32:12	c8928725-2f63-46b2-aed7-d42f2ee992f4	SyntaxError: Unexpected string in JSON at position 183	PATCH	/users	undefined
+20221113	17:05:54	f8b4393c-5e71-431e-b38c-b306b99a591b	SyntaxError: Unexpected end of JSON input	GET	/module	undefined
+20221113	17:20:08	d559806a-8c72-42b0-899d-68ac5deb4885	ReferenceError: module_id is not defined	POST	/modules	undefined
+20221113	18:40:24	80eb34c0-e6dd-42a6-8ab1-7555477bc98b	Error: Not allowed by CORS	GET	/modules	http://localhost:3000
+20221202	12:26:59	b9fe4e8d-9c92-4535-a247-335d84954843	TypeError: Cannot read properties of undefined (reading 'split')	GET	/users	undefined
+20221202	12:28:16	645a429f-7695-465c-8ef8-8808efeaed69	TypeError: Cannot read properties of undefined (reading 'split')	GET	/users	undefined
+20221202	12:28:45	2628d59c-067a-4335-8dd4-84626d4e412f	ReferenceError: token is not defined	GET	/users	undefined
+20221202	12:33:41	afb23bb9-b0af-43af-8633-e20544f88345	SyntaxError: Unexpected token } in JSON at position 234	POST	/users	undefined
+20221202	13:30:14	0cb5bc04-7ad2-4116-8f12-04f10afb2f6e	Error: data and hash arguments required	POST	/auth	undefined
+20221202	13:31:30	844f49b6-325f-4722-a9c4-0e370e009682	Error: data and hash arguments required	POST	/auth	undefined
+20221202	13:37:02	0ed7e5a1-950f-44c3-9552-b0e15be449bd	Error: data and hash arguments required	POST	/auth	undefined
+20221202	13:39:19	d0822f67-d105-4b92-a3df-fabe9dc151b0	Error: data and hash arguments required	POST	/auth	undefined
